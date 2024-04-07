@@ -19,4 +19,4 @@ Currently the script utilizes a `Prefix` named **"AWS-Server"**, it will generat
 <br />
 
 ### Modify The Prefix String
-![Alt text](https://github.com/gagechil04/Generate_Random_Splunk_Client_Name/blob/main/Resources/string_prefix.jpg "String Prefix")
+![Alt text](https://github.com/gagechil04/Generate_Random_Splunk_Client_Name/blob/main/Resources/prefix_string.jpg "String Prefix")
