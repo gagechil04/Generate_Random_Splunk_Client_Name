@@ -19,7 +19,7 @@ file_path="/opt/splunk/etc/system/local/deploymentclient.conf"
 # Check if the file exists
 if [ -f "$file_path" ]; then
     # Append the random string to the existing file
-    echo "random_key = $random_string" >> "$file_path"
+    echo "clientName = AWS-Server$random_string" >> "$file_path"
     # Print a message indicating the completion of the task
     echo "Random string has been appended to $file_path"
 else
