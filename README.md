@@ -15,3 +15,8 @@ Currently the script utilizes a `Prefix` named **"AWS-Server"**, it will generat
 
 ### deploymentclient.conf after running the script
 ![Alt text](https://github.com/gagechil04/Generate_Random_Splunk_Client_Name/blob/main/Resources/after.jpg "After Running Script")
+
+<br />
+
+### Modify The Prefix String
+![Alt text](https://github.com/gagechil04/Generate_Random_Splunk_Client_Name/blob/main/Resources/string_prefix.jpg "String Prefix")
