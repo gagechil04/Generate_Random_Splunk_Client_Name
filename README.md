@@ -1,1 +1,1 @@
-# Generate_Random_Splunk_Client_Name
+# Generate Random Splunk Client Name
