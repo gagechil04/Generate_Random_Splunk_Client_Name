@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#Echo a blank new line and then create deployment-client header
-echo >> /opt/splunk/etc/system/local/deploymentclient.conf &&
-echo "[deployment-client]" >> /opt/splunk/etc/system/local/deploymentclient.conf &&
+#Echo a blank new line and then create the deployment-client header
+echo >> /opt/splunkforwarder/etc/system/local/deploymentclient.conf &&
+echo "[deployment-client]" >> /opt/splunkforwarder/etc/system/local/deploymentclient.conf &&
 
 
-# Function to generate a random alphanumerical string
+# Function to generate a random 12 character alphanumerical string; You can change the number of characters withh the "head -c 12" parameter
 generate_random_string() {
     cat /dev/urandom | tr -dc 'a-zA-Z0-9' | head -c 12
 }
@@ -14,7 +14,7 @@ generate_random_string() {
 random_string=$(generate_random_string)
 
 # Specify the path to the existing file
-file_path="/opt/splunk/etc/system/local/deploymentclient.conf"
+file_path="/opt/splunkforwarder/etc/system/local/deploymentclient.conf"
 
 # Check if the file exists
 if [ -f "$file_path" ]; then
